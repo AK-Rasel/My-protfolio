@@ -1,5 +1,6 @@
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import { Link } from "react-router-dom";
 
 const AboutMe = () => {
     return (
@@ -14,7 +15,7 @@ const AboutMe = () => {
                          absolute 
                          -top-16 
                          
-                         left-[16%]
+                         left-[12%]
                          rounded-lg 
                          -z-10 ">
                          <div className="bg-white rounded-md  p-5 h-full"></div>
@@ -25,10 +26,10 @@ const AboutMe = () => {
                     <div className="font-catamaran flex-1  text-start lg:text-start">
                         <h1 className="md:text-7xl  text-6xl font-extrabold 
                         
-                        bg-gradient-to-r from-red-500 to-blue-500 inline-block text-transparent bg-clip-text
+                       
                         ">About Me</h1>
 
-                        <p className="py-6 font-normal text-lg lg:text-2xl"><span className="font-semibold bg-gradient-to-r from-red-500 to-blue-500 inline-block text-transparent bg-clip-text">Junior web developer</span> proficient in React, JavaScript, HTML, and CSS, with a foundational understanding of backend concepts using Express and MongoDB. Passionate about crafting user-centric web experiences and continuously expanding skills in both frontend and backend development.</p>
+                        <p className="py-6 font-normal text-lg lg:text-2xl"><span className="font-semibold text-rose-500">- I'm Junior web developer</span> proficient in React, JavaScript, HTML, and CSS, with a foundational understanding of backend concepts using Express and MongoDB. Passionate about crafting user-centric web experiences and continuously expanding skills in both frontend and backend development.</p>
                         <div className="md:text-2xl text-xl space-y-2 md:space-y-3" >
                             <h3 ><span className="md:font-bold font-semibold ">NAME :</span> Md.Abdul Khalek Rasel</h3>
                             <h3> <span className="md:font-bold font-semibold ">DATE OF BIRTH :</span> 05 January 1999</h3>
@@ -37,15 +38,24 @@ const AboutMe = () => {
                             {/* <h3> <span className="font-bold "></span>E-MAIL: raselak101010@gmail.com</h3> */}
                             <div className="space-y-5 ">
                                 <div className="space-x-3">
-                                    <button className="btn px-1  rounded-full text-4xl"><SiGmail /></button>
-                                    <button className="btn px-1  rounded-full text-4xl"><FaFacebook /></button>
-                                    <button className="btn px-1  rounded-full text-4xl"><FaGithub /></button>
+                                    <Link to='mailto:raselak101010@gmail.com'>
+                                    <button className="btn px-1 hover:bg-gradient-to-r from-red-500 to-blue-500 hover:text-white  rounded-full text-4xl"><SiGmail /></button>
+                                    </Link>
+                                    
+                                    <Link to='https://www.facebook.com/ak.rasel99/'>
+                                    <button className="btn hover:bg-gradient-to-r from-red-500 to-blue-500 hover:text-white px-1  rounded-full text-4xl"><FaFacebook /></button>
+                                    </Link>
+                                   
+                                    <Link to='https://github.com/AK-Rasel'>
+                                    <button className="btn hover:bg-gradient-to-r from-red-500 to-blue-500 hover:text-white px-1  rounded-full text-4xl"><FaGithub /></button>
+                                    </Link>
                                 </div>
 
                                 <button className="btn text-white font-bold font-catamaran text-lg outline-none border-none   hover:bg-gradient-to-l from-red-500 to-blue-500
                                 bg-gradient-to-r from-red-500 to-blue-500
                                 hover:outline
                                 ">Downlod Resume</button>
+                                
                             </div>
                         </div>
 

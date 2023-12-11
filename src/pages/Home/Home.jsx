@@ -2,6 +2,7 @@
 
 import AboutMe from "../../components/AboutMe/AboutMe";
 import Banner from "../../components/Banner/Banner";
+import ExperienceAndEducation from "../../components/experience & education/ExperienceAndEducation";
 
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
         <div>
             <Banner/>
         <AboutMe/>
+        <ExperienceAndEducation/>
         </div>
 
 
