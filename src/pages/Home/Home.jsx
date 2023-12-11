@@ -2,6 +2,7 @@
 
 import AboutMe from "../../components/AboutMe/AboutMe";
 import Banner from "../../components/Banner/Banner";
+import Contact from "../../components/Contact/Contact";
 import ProfessionalSkills from "../../components/ProfessionalSkills/ProfessionalSkills";
 import Footer from "../../components/footer/Footer";
 // import ExperienceAndEducation from "../../components/experience & education/ExperienceAndEducation";
@@ -14,6 +15,7 @@ const Home = () => {
         <AboutMe/>
         {/* <ExperienceAndEducation/> */}
         <ProfessionalSkills/>
+        <Contact/>
         <Footer/>
         </div>
 
