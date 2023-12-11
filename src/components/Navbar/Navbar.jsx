@@ -1,15 +1,15 @@
 import { Outlet } from "react-router-dom";
 
 const Navbar = () => {
-    const Link = <>
-        <li><a>Home</a></li>
-        <li><a>About</a></li>
-        <li><a>Blog</a></li>
-        <li><a>Contact</a></li>
+    const NavLink = <>
+        <li className="font-semibold text-xl font-catamaran uppercase hover:text-red-600"><a  href="#banner">Home</a></li>
+        <li className="font-semibold text-xl font-catamaran uppercase hover:text-red-600 "><a  href="#about">About</a></li>
+        <li className="font-semibold text-xl font-catamaran uppercase hover:text-red-600"><a href="#skills">Skills</a></li>
+        <li className="font-semibold text-xl font-catamaran uppercase hover:text-red-600"><a>Contact</a></li>
 
     </>
     return (
-        <div className="drawer z-50 ">
+        <div className="drawer z-50  ">
             <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
             <div className="drawer-content flex flex-col">
                 {/* Navbar */}
@@ -21,9 +21,9 @@ const Navbar = () => {
                     </div>
                     {/* <div className="flex-1 px-2 mx-2">Navbar Title</div> */}
                     <div className="flex-none hidden lg:block">
-                        <ul className="menu menu-horizontal ">
+                        <ul className="menu menu-horizontal  ">
                             {/* Navbar menu content here */}
-                            {Link}
+                            {NavLink}
                         </ul>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
                 <ul className="menu p-4 w-80 min-h-full bg-base-200 ">
                     {/* Sidebar content here */}
                     <div className="mt-12">
-                    {Link}
+                    {NavLink}
                     </div>
                 </ul>
             </div>
