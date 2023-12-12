@@ -30,6 +30,7 @@ const Navbar = () => {
                 </div>
                 {/* Page content here */}
                 <Outlet />
+                
 
             </div>
             <div className="drawer-side">
