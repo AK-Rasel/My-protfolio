@@ -1,12 +1,9 @@
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar2 = () => {
     const NavLink = <>
-        <li className="font-semibold text-xl font-catamaran uppercase hover:text-red-600"><a  href="#banner">Home</a></li>
-        <li className="font-semibold text-xl font-catamaran uppercase hover:text-red-600 "><a  href="#about">About</a></li>
-        <li className="font-semibold text-xl font-catamaran uppercase hover:text-red-600"><a href="#skills">Skills</a></li>
-        <li className="font-semibold text-xl font-catamaran uppercase hover:text-red-600"><a href="#contact">Contact</a></li>
-        <li className="font-semibold text-xl font-catamaran uppercase hover:text-red-600"><a href="#project">Project</a></li>
+        <li className="font-semibold text-xl font-catamaran uppercase hover:text-red-600"><Link  to="/">Home</Link></li>
+      
 
     </>
     return (
@@ -45,4 +42,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Navbar2;

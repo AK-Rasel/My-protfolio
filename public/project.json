@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "name_1": "React",
+      "name_2": "Html",
+      "name_3": "Tailwindcss",
+      "name_4": "Daisyui",
+      "name_5": "Mongodb",
+      "name_6": "Express",
+      "name_7": "Jwt",
+      "name_8": "React Hook From",
+    "project_name": "InfinityEvents",
+    "short_paragraph": "It is an event management website where everything is created dynamically",
+    "main_image": "https://i.ibb.co/Gdbsy86/Screenshot-2.png",
+    "technology": [{
+      "name_1": "React",
+      "name_2": "Html",
+      "name_3": "Tailwindcss"
+    }],
+   
+    "features": {
+      "feature_1": "Home / AboutUs / Servises / Banner / Footer",
+      "feature_2": "Private/protected route",
+      "feature_3": "All device responsive",
+      "feature_4": "Animated all Website",
+      "feature_5": "Login and register validated",
+      "feature_6": "There are 6 category cards which show in details"
+    },
+    "website_links": " https://infinity-events-4206d.web.app/"
+    ,
+    
+      "img_url_1": "https://i.ibb.co/Gdbsy86/Screenshot-2.png",
+      "img_url_2": "https://i.ibb.co/zxHKZLm/Screenshot-4.png",
+      "img_url_3": "https://i.ibb.co/G5Wr0CN/Screenshot-5.png",
+      "img_url_4": "https://i.ibb.co/chBrQhq/Screenshot-6.png"
+    
+  },
+  {
+    "id": 2,
+    "name_1": "React",
+      "name_2": "Html",
+      "name_3": "Tailwindcss",
+      "name_4": "Daisyui",
+      "name_5": "Mongodb",
+      "name_6": "Express",
+      "name_7": "Jwt",
+      "name_8": "React Hook From",
+    "project_name": "Brandshop",
+    "short_paragraph": "This is a website for a car dealership where new car listings are added, updated, and dynamically retrieved from the back end.",
+    "main_image": "https://i.ibb.co/P4C8TF9/Screenshot-7.png",
+    "technology": [{
+      "name_1": "React",
+      "name_2": "Html",
+      "name_3": "Tailwindcss",
+      "name_4": "Daisyui",
+      "name_5": "Mongodb",
+      "name_6": "Express"
+    }],
+    "features":{
+      "feature_1": "navbar, footer, brand card, my cart, Why Choose Us section",
+      "feature_2": "Add new product, update (All data is coming from the back-end)",
+      "feature_3": "private router, banner slider used, different product Routes - Add to cart will be added to the cart page.",
+      "feature_4": "Add new product category and update category personally",
+      "feature_5": "Login and register validated",
+      "feature_6": "Register password less than 6 characters, not an uppercase letter, a special character not display message."
+    },
+    "website_links": 
+      "https://automotive-d88f5.web.app/"
+    ,
+    
+      "img_url_1": "https://i.ibb.co/WVTnvpP/Screenshot-1.png",
+      "img_url_2": "https://i.ibb.co/P5BFJyC/Screenshot-2.png",
+      "img_url_3": "https://i.ibb.co/rdyWLRy/Screenshot-3.png",
+      "img_url_4": "https://i.ibb.co/P4C8TF9/Screenshot-7.png"
+   
+  },
+  {
+    "id": 3,
+    "project_name": "PackFlow",
+    "short_paragraph": "It's a MERN website catering to a transportation company, with separate sections for admins, users, and delivery personnel.",
+    "main_image": "https://i.ibb.co/k6dq1pK/Screenshot-4.png",
+    "technology": [{
+      "name_1": "React",
+      "name_2": "Html",
+      "name_3": "Tailwindcss",
+      "name_4": "Daisyui",
+      "name_5": "Mongodb",
+      "name_6": "Express",
+      "name_7": "Jwt",
+      "name_8": "React Hook From"
+    }],
+    "name_1": "React",
+      "name_2": "Html",
+      "name_3": "Tailwindcss",
+      "name_4": "Daisyui",
+      "name_5": "Mongodb",
+      "name_6": "Express",
+      "name_7": "Jwt",
+      "name_8": "React Hook From",
+    "features": {
+      "feature_1": "Home / Admin Dashboard / DeliveryMen Dashboard / user Dashboard",
+      "feature_2": "Private/protected route",
+      "feature_3": "All device responsive",
+      "feature_4": "Animated all Website",
+      "feature_5": "Login and register validated",
+      "feature_6": "user Dashboard view / my Profile / My Parcels / Book a parcel (All data is coming from the back-end)",
+      "feature_7": "Admin Dashboard view / all parcels / all user / all DeliveryMan / statistics (All data is coming from the back-end)"
+    },
+    "website_links": 
+      "https://packflow-6f508.web.app"
+    ,
+    
+      "img_url_1": "https://i.ibb.co/ThHTwFH/Screenshot-1.png",
+      "img_url_2": "https://i.ibb.co/2gsJD36/Screenshot-2.png",
+      "img_url_3": "https://i.ibb.co/PtZNDLn/Screenshot-3.png",
+      "img_url_4": "https://i.ibb.co/YPy0nxh/Screenshot-5.png",
+      "img_url_5": "https://i.ibb.co/ydXrydg/Screenshot-6.png"
+    
+  }
+]

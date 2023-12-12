@@ -3,7 +3,7 @@ import { FaFacebook, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
 import raselCv from '../../../public/raselCv.pdf'
-
+import BannerImg from '../../assets/IMG20231212113223.jpg'
 const AboutMe = () => {
     return (
         <div id="about" className="">
@@ -23,10 +23,10 @@ const AboutMe = () => {
                          <div className="bg-white rounded-md  p-5 h-full"></div>
                         </div>
                         {/* img */}
-                        <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="w-[66%]  rounded-lg shadow-2xl mr-10" />
+                        <img src={BannerImg} className="w-[66%]  rounded-lg shadow-2xl mr-10" />
                     </div>
                     <div className="font-catamaran flex-1  text-start lg:text-start">
-                        <h1 className="md:text-7xl  text-6xl font-extrabold 
+                        <h1 className="md:text-7xl  text-3xl font-extrabold 
                         
                        
                         ">About Me</h1>

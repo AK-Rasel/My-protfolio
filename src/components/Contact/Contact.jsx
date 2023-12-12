@@ -1,10 +1,31 @@
 /* eslint-disable react/no-unescaped-entities */
+// import { useForm } from "react-hook-form";
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 // import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
+import  { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+//     const form = useRef();
+//     const {handleSubmit,register} = useForm()
+
+//     const onSubmit = (data) => {
+// console.log(data.name,data.email,data.message)
+//     }
+const form = useRef();
+
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs.sendForm('service_t7iio0u', 'template_7g1z5tl', form.current, 'zGx8edpzuZtxO5hSY')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+};
     return (
         <div id="contact" className="flex justify-evenly items-center my-28 ">
             
@@ -41,24 +62,24 @@ const Contact = () => {
                 <div className="flex-1 max-w-2xl">
                     
                 <div className="card shrink-0  w-full  shadow-2xl bg-gradient-to-b from-red-600 to-[#111111] from-30%">
-                    <form className="card-body">
+                    <form ref={form} onSubmit={sendEmail}className="card-body">
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text text-white text-lg ">Name</span>
                             </label>
-                            <input type="text" placeholder="Name" className=" focus:outline-none input input-bordered" required />
+                            <input type="text" name="name" placeholder="Name" className=" focus:outline-none input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text text-white text-lg ">Email</span>
                             </label>
-                            <input type="email" placeholder="email" className="input input-bordered focus:outline-none" required />
+                            <input type="email" name="email"  placeholder="email" className="input input-bordered focus:outline-none" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text text-white text-lg ">Message</span>
                             </label>
-                            <textarea className="focus:outline-none textarea textarea-bordered" placeholder="message"></textarea>
+                            <textarea name="message"  className="focus:outline-none textarea textarea-bordered" placeholder="message"></textarea>
                            
                         </div>
                         <div className="form-control mt-6">

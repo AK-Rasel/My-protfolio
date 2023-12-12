@@ -7,7 +7,7 @@ const ProfessionalSkills = () => {
 
             <div  className="max-w-[1280px]   mx-auto mb-24" >
                 <div className="md:mx-24  mb-8 md:my-16 lg:mx-0  ">
-                    <h1 className="md:text-6xl   lg:text-6xl text-5xl lg:text-center font-extrabold uppercase">My Skills</h1>
+                    <h1 className="md:text-6xl   lg:text-6xl text-3xl lg:text-center font-extrabold uppercase">My Skills</h1>
                 </div>
                 <div className="gap-10   grid grid-cols-1 lg:grid-cols-2 justify-evenly">
                     <div>
