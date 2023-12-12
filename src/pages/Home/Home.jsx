@@ -5,7 +5,8 @@ import Banner from "../../components/Banner/Banner";
 import Contact from "../../components/Contact/Contact";
 import ProfessionalSkills from "../../components/ProfessionalSkills/ProfessionalSkills";
 import Footer from "../../components/footer/Footer";
-// import ExperienceAndEducation from "../../components/experience & education/ExperienceAndEducation";
+import ExperienceAndEducation from "../../components/experience & education/ExperienceAndEducation";
+import MyProject from "../../components/MyProject/MyProject";
 
 
 const Home = () => {
@@ -13,8 +14,9 @@ const Home = () => {
         <div>
             <Banner/>
         <AboutMe/>
-        {/* <ExperienceAndEducation/> */}
+        <ExperienceAndEducation/>
         <ProfessionalSkills/>
+        <MyProject/>
         <Contact/>
         <Footer/>
         </div>

@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-
+import Typewriter from 'react-ts-typewriter';
 
 const Banner = () => {
     return (
@@ -11,11 +11,12 @@ const Banner = () => {
                         <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="w-[66%]  rounded-lg shadow-2xl mr-10" />
                     </div>
                     <div className="font-catamaran flex-1 text-white text-start">
-                        <h1 className="md:text-6xl  text-5xl font-extrabold">I'm Junior Web Developer</h1>
-                        <p className="py-6 font-medium text-xl">Junior web developer proficient in React, JavaScript, HTML, and CSS, with a foundational understanding of backend concepts using Express and MongoDB. Passionate about crafting user-centric web experiences and continuously expanding skills in both frontend and backend development.</p>
+                        <h1 className="md:text-6xl  text-5xl font-extrabold">  <Typewriter random='100ms' text='Welcome to my portfolio' /></h1>
+                       
+                        <p className="py-6 font-medium text-xl">I am a junior web developer proficient in React, JavaScript, HTML and CSS, with a basic understanding of backend concepts using Express and MongoDB..</p>
                         <button className="btn text-white font-bold font-catamaran text-lg outline-none border-none   bg-red-600 hover:bg-red-500
                                 hover:outline
-                                ">Hire Me</button>
+                                "><a href="#contact">Hire Me</a></button>
                     </div>
                 </div>
 

@@ -15,7 +15,7 @@ const Contact = () => {
                     <p className="py-6 font-medium text-xl">Please don't hesitate to contact me. I'm excited to explore fresh projects, innovative concepts, or ways to contribute to your vision.</p>
                     <div className="flex -mt-4 gap-2 items-center">
                     <IoIosMail className="text-5xl" />
-                        <h3 className="font-semibold text-xl">raselak101010@gmail.com</h3>
+                        <h3 className="font-semibold text-xl border-l-2 border-[#1F2937] pl-2">raselak101010@gmail.com</h3>
                     </div>
                     <div className=" space-y-5 ">
                                 <div className="space-x-3">
@@ -56,13 +56,13 @@ const Contact = () => {
                         </div>
                         <div className="form-control">
                             <label className="label">
-                                <span className="label-text text-white text-lg ">Password</span>
+                                <span className="label-text text-white text-lg ">Message</span>
                             </label>
-                            <textarea className="focus:outline-none textarea textarea-bordered" placeholder="Bio"></textarea>
+                            <textarea className="focus:outline-none textarea textarea-bordered" placeholder="message"></textarea>
                            
                         </div>
                         <div className="form-control mt-6">
-                            <button className="btn text-lg  border-none  text-white transition ease-in-out delay-150 bg-red-600 hover:-translate-y-1 hover:scale-110 hover:text-[#1F2937] hover:bg-white hover:border-red-600 duration-300">Send Message</button>
+                            <button type="submit" className="btn text-lg  border-none  text-white transition ease-in-out delay-150 bg-red-600 hover:-translate-y-1 hover:scale-110 hover:text-[#1F2937] hover:bg-white hover:border-red-600 duration-300">Send Message</button>
                         </div>
                         {/* <div className="form-control mt-6">
                             <button className="btn border-none text-white bg-red-600 hover:text-[#1F2937] hover:bg-white">Send Message</button>

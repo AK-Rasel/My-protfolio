@@ -2,6 +2,7 @@
 import { FaFacebook, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import { Link } from "react-router-dom";
+import raselCv from '../../../public/raselCv.pdf'
 
 const AboutMe = () => {
     return (
@@ -52,11 +53,13 @@ const AboutMe = () => {
                                     </Link>
                                 </div>
 
-                                <button className="btn text-white font-bold font-catamaran text-lg outline-none border-none   hover:bg-[#FF0000] bg-[#1F2937]
-                                hover:outline
-                                ">Downlod Resume</button>
+                                <button className="btn text-lg  border-none  text-white  hover:text-white transition ease-in-out delay-150 bg-[#1F2937] hover:-translate-y-1 hover:scale-110 hover:text-[#1F2937] hover:bg-[#FF0000] hover:border-red-600 duration-300
+                                "><a href={raselCv} download='raselCv'>Downlod CV</a></button>
                                 
                             </div>
+                            {/* text-white font-bold font-catamaran text-lg outline-none border-none   hover:bg-[#FF0000] bg-[#1F2937]
+                                hover:outline */}
+                           
                         </div>
 
 

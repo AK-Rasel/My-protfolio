@@ -11,7 +11,7 @@ export default {
       'catamaran': ['Catamaran, sans-serif']
     }
   },
-  plugins: [require("daisyui"),require('flowbite/plugin')],
+  plugins: [require("daisyui")],
   
 }
 

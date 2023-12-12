@@ -11,27 +11,27 @@ const ProfessionalSkills = () => {
                 </div>
                 <div className="gap-10   grid grid-cols-1 lg:grid-cols-2 justify-evenly">
                     <div>
-                        <h1 className="font-bold uppercase">html</h1>
+                        <h1 className="font-bold text-lg uppercase">html</h1>
                         <ProgressBar className="lg:w-[30rem] " bgColor='red' completed={100} />
                     </div>
                     <div>
-                        <h1>css</h1>
+                        <h1 className="font-bold text-lg uppercase">css</h1>
                         <ProgressBar className="lg:w-[30rem] " bgColor='red' completed={100} />
                     </div>
                     <div>
-                        <h1>javascript</h1>
+                        <h1 className="font-bold text-lg uppercase">javascript</h1>
                         <ProgressBar bgColor='red' className="lg:w-[30rem] " completed={60} />
                     </div>
                     <div>
-                        <h1>react</h1>
+                        <h1 className="font-bold text-lg uppercase">react</h1>
                         <ProgressBar bgColor='red' className="lg:w-[30rem] " completed={50} />
                     </div>
                     <div>
-                        <h1>mongodb</h1>
+                        <h1 className="font-bold text-lg uppercase">mongodb</h1>
                         <ProgressBar bgColor='red' className="lg:w-[30rem] " completed={40} />
                     </div>
                     <div>
-                        <h1>Express.js</h1>
+                        <h1 className="font-bold text-lg uppercase">Express.js</h1>
                         <ProgressBar bgColor='red' className="lg:w-[30rem] " completed={20} />
                     </div>
                 </div>
